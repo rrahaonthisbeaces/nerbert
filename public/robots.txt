@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /login/
+Disallow: /register/
+Disallow: /static/
+Disallow: /*.map$
+Disallow: /api/
+Crawl-delay: 1

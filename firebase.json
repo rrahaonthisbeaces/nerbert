@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "cedeplajes.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

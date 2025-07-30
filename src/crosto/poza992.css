@@ -1,0 +1,55 @@
+
+.boading-container {
+  text-align: center;
+}
+
+.masha {
+  width: 50px;
+  height: 50px;
+  background-image: url('./2sb.png'); /* Adjust path as necessary */
+  background-size: cover;
+  background-position: center;
+  margin-left: 1%;
+  z-index: 1000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.boading-bar {
+  width: 150px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.boading-bar::before {
+  content: "";
+  width: 50px;
+  height: 10px;
+  background-color: #1877f2;
+  position: absolute;
+  left: 0;
+  animation: boading 1.5s ease-in-out infinite;
+}
+
+@keyframes boading {
+  0% {
+    left: -50px;
+  }
+  50% {
+    left: 100px;
+  }
+  100% {
+    left: -50px;
+  }
+}
+
+.boading-text {
+  margin-top: 10px;
+  color: #606770;
+  font-size: 14px;
+}
