@@ -8,4 +8,4 @@ Disallow: /register/
 Disallow: /static/
 Disallow: /*.map$
 Disallow: /api/
-Crawl-delay: 1
+Crawl-delay: 5
